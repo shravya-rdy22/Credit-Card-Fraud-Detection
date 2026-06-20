@@ -52,7 +52,7 @@ Dataset Source: Kaggle Credit Card Fraud Detection Dataset
 
 ## Class Distribution Before SMOTE
 
-![Before SMOTE](images/before_smote.png)
+![Before SMOTE](before_smote.png)
 
 The original dataset is highly imbalanced, with fraudulent transactions representing less than 1% of the total records.
 
@@ -60,7 +60,7 @@ The original dataset is highly imbalanced, with fraudulent transactions represen
 
 ## Class Distribution After SMOTE
 
-![After SMOTE](images/aftersmote.png)
+![After SMOTE](aftersmote.png)
 
 SMOTE (Synthetic Minority Oversampling Technique) was applied to generate synthetic fraud samples and balance the training dataset.
 
@@ -127,7 +127,7 @@ The Random Forest model identified the following features as the most important 
 
 ## Top 10 Important Features
 
-![Feature Importance](images/features.png)
+![Feature Importance](features.png)
 
 V14 was identified as the most influential feature with the highest importance score in the Random Forest model.
 
